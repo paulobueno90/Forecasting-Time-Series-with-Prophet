@@ -34,7 +34,7 @@ As part of the terms and conditions of Arvato, the files cannot be shared in thi
 - 7 features
 - Feature used: 'Austin-Round Rock-Georgetown, TX'
 
-##### Data from "data.austintexas.gov" - [Austin Animal Center](http://www.austintexas.gov/content/austin-animal-center)
+##### Data from "data.austintexas.gov" API - [Austin Animal Center](http://www.austintexas.gov/content/austin-animal-center)
 - 131,000 rows
 - 12 features
 
