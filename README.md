@@ -29,8 +29,6 @@ Python Version: 3.7.12
 There were two datasets in this project: one provided by provided by Arvato for this project. 
 As part of the terms and conditions of Arvato, the files cannot be shared in this repository. However, they can be described below.
 
-#### Demographics data
-
 ##### austin.xlsx -  MEI data ( weekly data)
 - 65 rows
 - 7 features
