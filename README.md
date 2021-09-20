@@ -6,7 +6,6 @@
 
 # Forecasting Using Prophet
 
----
 
 The following project has been created as part of my learning path, seeking to understand one of the well known framework for time-series forecasting.
 
@@ -14,7 +13,6 @@ The following project has been created as part of my learning path, seeking to u
 
 To access the project's official documentation: [Prophet Official Doc Page.](https://facebook.github.io/prophet/)
 
----
 
 ## Libraries Used
 
@@ -28,34 +26,25 @@ Python Version: 3.7.12
 - fbprophet
 
 ## File Descriptions
-There were four data files provided by Arvato for this project. 
+There were two datasets in this project: one provided by provided by Arvato for this project. 
 As part of the terms and conditions of Arvato, the files cannot be shared in this repository. However, they can be described below.
 
 #### Demographics data
 
-##### austin.xlsx -  MEI data
-- 891,211 rows
-- 366 features
+##### austin.xlsx -  MEI data ( weekly data)
+- 65 rows
+- 7 features
+- Feature used: 'Austin-Round Rock-Georgetown, TX'
 
-##### customers.csv - customers of a mail-order company 
-- 191,652 rows
-- 369 features
+##### Data from "data.austintexas.gov" - [Austin Animal Center](http://www.austintexas.gov/content/austin-animal-center)
+- 131,000 rows
+- 12 features
 
-##### mailout_train.csv - target individuals of a marketing campaign (train) 
-- 42,982 rows
-- 367 features
-
-##### mailout_test.csv - target individuals of a marketing campaign (test) 
-- 42,833 rows
-- 366 features
 
 ## Notebooks Description
-These are public notebooks and can be used.
-- 1-DataExploration_and_Cleaning.ipynb: Notebook data preparations such as cleaning, feature engeneering and handling NaNs
-- 2-Customer Segmentation.ipynb: Notebook initiates with clean data and go to steps of dimensionality reduction and clustering
-- 3-Supervised Model.ipynb: Test models, fit and submission.
-## Python Functions
-- functions.py - File with some functions used in the notebooks.
+This is public notebook and can be used.
+- Animal_Shelter.ipynb: Notebook with basic time-series exploration, forecasting with prophet and covid restrictions effects using correlation with ['Mobility and Engagement Index'](https://www.dallasfed.org/research/mei)
+
 
 ## Summary
 This challenge was provided by Arvato Financial Solutions for the Udacity Data Science Nanodegree Program.
