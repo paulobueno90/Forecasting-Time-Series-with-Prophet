@@ -41,21 +41,17 @@ As part of the terms and conditions of Arvato, the files cannot be shared in thi
 
 ## Notebooks Description
 This is public notebook and can be used.
-- Animal_Shelter.ipynb: Notebook with basic time-series exploration, forecasting with prophet and covid restrictions effects using correlation with ['Mobility and Engagement Index'](https://www.dallasfed.org/research/mei)
+- Animal_Shelter.ipynb: Notebook with basic time-series exploration, forecasting with prophet and quick correlation between covid restrictions and adoptions ['Mobility and Engagement Index'](https://www.dallasfed.org/research/mei)
 
 
 ## Summary
-This challenge was provided by Arvato Financial Solutions for the Udacity Data Science Nanodegree Program.
-There were two major steps in the project and the submission
+This project was made thinking on learning how to use prophet for time-series tasks, although it couldn't achieve an excellent performance, it was worthy the exercise and visualization. There were 3 steps in this project.
 
-#### Customer Segmentation Report 
-With data of customers of a mail-order sales company in Germany and comparing it with demographics information for the general population. In this part it is used unsupervised learning techniques to perform customer segmentation, identifying through clusters the parts of the population that best describe the customer of the company.
+#### Exploring time-series data
 
-#### Supervised Learning Model
-This part it is used the knowledge from the previous analysis and a machine learning model is build to predict whether or not a person will become a customer.
+#### Use prophet to forecast this time-series as the official doc suggests.
 
-#### Kaggle Competition 
-With the model created, it is time to submit the predictions of the test data to this [Kaggle Competition](https://www.kaggle.com/c/udacity-arvato-identify-customers)
+#### Extra: showing with data the relation between the animal shelter adoptions and covid mobility restrictions.
 
 ## Results
 There are a lot of features missing description which was needed further investigation but i didn't have the time to adress. Therefore in summary, looking into data it can be said that the group of potencial customers are likely to have these characteristics:
