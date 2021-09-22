@@ -13,6 +13,8 @@ The following project has been created as part of my learning path, seeking to u
 
 To access the project's official documentation: [Prophet Official Doc Page.](https://facebook.github.io/prophet/)
 
+Data used on this project was made available by the [Austin Animal Center](http://www.austintexas.gov/content/austin-animal-center) and can be retrieved at [City of Austin Open Data Portal](https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Outcomes/9t4d-g238)
+
 
 ## Libraries Used
 
