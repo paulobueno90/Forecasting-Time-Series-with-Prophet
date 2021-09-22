@@ -29,7 +29,7 @@ Python Version: 3.7.12
 There were two datasets in this project: one provided by provided by Arvato for this project. 
 As part of the terms and conditions of Arvato, the files cannot be shared in this repository. However, they can be described below.
 
-##### austin.xlsx -  MEI data ( weekly data)
+##### austin.xlsx -  MEI data ( weekly data) - ['Mobility and Engagement Index'](https://www.dallasfed.org/research/mei)
 - 65 rows
 - 7 features
 - Feature used: 'Austin-Round Rock-Georgetown, TX'
@@ -41,32 +41,22 @@ As part of the terms and conditions of Arvato, the files cannot be shared in thi
 
 ## Notebooks Description
 This is public notebook and can be used.
-- Animal_Shelter.ipynb: Notebook with basic time-series exploration, forecasting with prophet and quick correlation between covid restrictions and adoptions ['Mobility and Engagement Index'](https://www.dallasfed.org/research/mei)
+- Animal_Shelter.ipynb: Notebook with basic time-series exploration, forecasting with prophet and quick correlation between covid restrictions and adoptions 
 
 
 ## Summary
 This project was made thinking on learning how to use prophet for time-series tasks, although it couldn't achieve an excellent performance, it was worthy the exercise and visualization. There were 3 steps in this project.
 
-#### Exploring time-series data
+- Exploring time-series data
 
-#### Use prophet to forecast this time-series as the official doc suggests.
+- Use prophet to forecast this time-series as the official doc suggests.
 
-#### Extra: showing with data the relation between the animal shelter adoptions and covid mobility restrictions.
+- Extra: showing with data the relation between the animal shelter adoptions and covid mobility restrictions.
 
 ## Results
-There are a lot of features missing description which was needed further investigation but i didn't have the time to adress. Therefore in summary, looking into data it can be said that the group of potencial customers are likely to have these characteristics:
-- Individuals with Higher income and wealth.
-- Individuals which is more avantgard than mainstream and more likely to be green avantgarde ( sustainability)
-- Live in areas with lower density of inhabitants and lower unemployement.
-- Has higher mobility
-- Mid-ager with family individuals
-
-If the company were willing to launch a marketing campaign, it would be more efficient to target these clusters of characteristics.
-
-## Acknowledgements
-
-Udacity - For giving me the opportunity to learn and develop with real projects
-
-Arvato - For the oppotunity to work on their data with a real life project experience
-
-
+Results here
+- Results
+- Results
+- Results
+- Results
+- Results
