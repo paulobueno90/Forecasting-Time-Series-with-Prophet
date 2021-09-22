@@ -51,16 +51,19 @@ This is public notebook and can be used.
 ## Summary
 This project was made thinking on learning how to use prophet for time-series tasks, although it couldn't achieve an excellent performance, it was worthy the exercise and visualization. There were 3 steps in this project.
 
-- Exploring time-series data
+- Explore and identify patterns during the time-series analysis.
 
-- Use prophet to forecast this time-series as the official doc suggests.
+- Implement Prophet(following official doc suggestion) to forecast the outcomes of this time-series.
 
 - Extra: showing with data the relation between the animal shelter adoptions and covid mobility restrictions.
 
 ## Results
-Results here
-- Results
-- Results
-- Results
-- Results
-- Results
+Prophet is very easy and simple to use, and can be used to check time series data, which can get rich insights and hints based on variation of values by day of the week and also possible to clearly identify the seasonality of the months in a faster way.
+
+It is necessary to adress some points:
+
+- larger temporal windows, for example the test with weekly frequency performed considerably better than using the daily frequency. This can be explained by a higher amount of noise contained in series with higher frequency.
+
+- Prophet needs seasonality and trend, meaning that external/unexpected events will make Prophet predictions fail as autocorrelation changes in the short term. If a model needs to capture external events, models created by Prophet is not a good choice.
+
+- [Mobility and Engagement Index](https://www.dallasfed.org/research/mei): Although it was developed as a way to measure activity but with economic purposes, this index has a high correlation with adoption numbers. This index was discontinued on March 31, 2021 which is a shame because I can imagine many other uses and analyzes using it.
