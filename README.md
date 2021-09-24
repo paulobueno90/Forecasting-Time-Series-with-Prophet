@@ -30,8 +30,7 @@ Python Version: 3.7.12
 - fbprophet
 
 ## File Descriptions
-There were two datasets in this project: one provided by provided by Arvato for this project. 
-As part of the terms and conditions of Arvato, the files cannot be shared in this repository. However, they can be described below.
+There were two datasets used in this project: 
 
 ##### austin.xlsx -  MEI data ( weekly data) - ['Mobility and Engagement Index'](https://www.dallasfed.org/research/mei)
 - 65 rows
